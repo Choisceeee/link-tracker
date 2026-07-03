@@ -1,0 +1,17 @@
+{
+  "name": "link-tracker-(1)",
+  "version": "1.0.0",
+  "description": "Microservicio minimalista para medir cuántas veces se hace click en tus links, estilo Bitly pero propio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nanoid": "^3.3.15"
+  }
+}
