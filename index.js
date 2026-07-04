@@ -3,7 +3,9 @@ const fs = require('fs');
 const path = require('path');
 const { nanoid } = require('nanoid');
 
+const cors = require('cors');
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 const DB_FILE = path.join(__dirname, 'links.json');
